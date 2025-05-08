@@ -1,11 +1,23 @@
+import java.util.Vector;
+
 public class HelloMilazzo {
 	public static void main(String[] args) {
 		System.out.println("Hello Milazzo");
-        System.out.println("Hello Milazzo");
-        System.out.println("Hello Milazzo"); //Stampo 3 volte Hello Milazzo
 
-        System.out.println("2/07/2007"); //Stampo la data di nascita
 
-        System.out.println("Forza Catania !"); //Stampo la mia squadra del cuore
+       Vector <Character> lettere = new Vector<>();
+        lettere.add('M');
+        lettere.add('i')
+        lettere.add('l');
+        lettere.add('a');
+        lettere.add('z');
+        lettere.add('z');
+        lettere.add('o');
+
+        for (Character lettera : lettere) {
+            System.out.println(lettera);
+        }
     }
+
+       
 }
