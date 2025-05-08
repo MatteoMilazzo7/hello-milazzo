@@ -1,11 +1,13 @@
 public class HelloMilazzo {
 	public static void main(String[] args) {
 		System.out.println("Hello Milazzo");
-        System.out.println("Hello Milazzo");
-        System.out.println("Hello Milazzo"); //Stampo 3 volte Hello Milazzo
+ //array di caratteri con le lettere del nome  Milazzo
+ char[] lettere = {'M','I','L','A','Z','Z','O'};
 
-        System.out.println("2/07/2007"); //Stampo la data di nascita
-
-        System.out.println("Forza Catania !"); //Stampo la mia squadra del cuore
-    }
+ //stampa le lettere dell'array
+ for (char lettera : lettere ) {
+    System.out.print(lettera + " ");
+ }
+}
+ 
 }
